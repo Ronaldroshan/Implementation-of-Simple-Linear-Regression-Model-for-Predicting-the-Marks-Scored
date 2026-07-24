@@ -8,16 +8,19 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Load the dataset into a DataFrame and explore its contents to understand the data structure.
+
+2.Separate the dataset into independent (X) and dependent (Y) variables, and split them into training and testing sets.
+
+3.Create a linear regression model and fit it using the training data.
+
+4.Predict the results for the testing set and plot the training and testing sets with fitted lines.
 
 ## Program:
 ```
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: 
-RegisterNumber:  
+Developed by: Rajanayagam K
+RegisterNumber:  212224060202
 
 
 import pandas as pd
@@ -81,7 +84,28 @@ print("\nPredictions for new hours", new_hours.flatten(), "=>", np.round(pred_ne
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+# Training and testing sets
+<img width="972" height="48" alt="image" src="https://github.com/user-attachments/assets/bcff8426-e09f-44d9-8cb1-96c62a3b549a" />
+
+
+#  Predict on the test set
+<img width="1002" height="60" alt="image" src="https://github.com/user-attachments/assets/019c435a-4dfb-41b4-ae32-3fee6c58f451" />
+
+
+#  Plot training results
+<img width="727" height="542" alt="image" src="https://github.com/user-attachments/assets/110fc644-fc63-412d-a0f8-b88a488d29c2" />
+
+
+#  Plot testing results
+<img width="732" height="547" alt="image" src="https://github.com/user-attachments/assets/bf959ea8-d509-4902-8924-d64e4445d5ba" />
+
+
+#  Evaluation metrics
+<img width="832" height="90" alt="image" src="https://github.com/user-attachments/assets/ad31d1f5-a55f-46e0-9de1-8dbd4544b5b3" />
+
+#  Example: predict for new students
+<img width="718" height="40" alt="image" src="https://github.com/user-attachments/assets/428f4062-05bf-4d2a-98db-b0ebfdcfcaf1" />
+
 
 
 ## Result:
